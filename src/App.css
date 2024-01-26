@@ -1,11 +1,9 @@
 .container {
   margin-top: 1rem;
 }
-
 .app-title {
   margin-bottom: 1rem;
 }
-
 .note-list {
   display: flex;
   gap: 1rem;
@@ -13,83 +11,14 @@
   margin: -1rem;
   padding: 1rem;
 }
-
 .note-item {
   margin: 0;
   border-radius: 8px;
-  border: 1px solid rgba(255 255 255 / 0.6);
+  border: 1px solid rgba(255 255 255/ 0.6);
   padding: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
 }
-
 .note-title {
   font-size: 1.125rem;
   font-weight: bold;
-}
 
-.note-edit-button {
-  margin: 0;
-  border-radius: 50%;
-  padding: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  flex: none;
-  border: initial;
-  background: initial;
-}
-
-.note-delete-button {
-  margin: 0;
-  border-radius: 50%;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  flex: none;
-  border: initial;
-  background: initial;
-}
-
-.note-editing {
-  outline: 2px solid lightblue;
-}
-
-.empty-notes {
-  padding: 1rem;
-  background: rgba(0 0 0 / 0.08);
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0 0 0 / 0.6);
-}
-
-.modal-content {
-  background: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-title {
-  margin-bottom: 1rem;
-}
-
-.modal-actions {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.modal-actions > * {
-  flex: 1;
 }
